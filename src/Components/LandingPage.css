@@ -23,6 +23,10 @@ table tbody td {
   text-align: center;
 }
 
+table tbody td:hover{
+  cursor: pointer;
+}
+
 table tr th {
   font-size: 12px !important;
   text-align: center;
