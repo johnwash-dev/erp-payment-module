@@ -18,7 +18,7 @@
   box-sizing: border-box;
 }
 
-input, select{
+input, select, textarea{
   box-shadow: none !important;
 }
 .bills-section {
@@ -83,14 +83,14 @@ input, select{
   max-width: 250px;
 }
 
-/* Total Bills Text */
+
 .total-bill-text {
   margin-top: 12px;
   padding: 12px;
   border-top: 1px solid #dee2e6;
 }
 
-/* Radio Buttons */
+
 .radio-btns {
   display: flex;
   gap: 12px;
