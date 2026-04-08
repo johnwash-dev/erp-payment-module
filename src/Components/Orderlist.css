@@ -1,0 +1,141 @@
+/* Card Container */
+.payment-card {
+  width: 100%;
+  height: fit-content;
+  max-width: 950px;
+}
+
+.payment-card.compact {
+  max-width: 500px;
+}
+
+/* Form Section (Left Side) */
+.form-section {
+  height: 470px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+input, select{
+  box-shadow: none !important;
+}
+.bills-section {
+  height: 470px;
+}
+
+/* Bill Card Table - Selected State */
+.bill-card-table {
+  margin-bottom: 12px;
+  border: none !important;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.bill-card-table tbody tr {
+  border: none !important;
+}
+
+.bill-card-table tbody tr td {
+  border: none !important;
+}
+
+.bill-card-table tbody tr:last-child {
+  border-bottom: none !important;
+}
+
+.bill-card-table.selected {
+  background-color: rgba(13, 110, 253, 0.05);
+}
+
+.bill-card-table .label-col {
+  width: 10%;
+  font-weight: bold;
+  color: #333;
+  padding: 8px 10 !important;
+  font-size: 0.875rem;
+}
+
+.bill-card-table .colon{
+  width: 5% !important;
+  padding: 8px  10!important;
+}
+
+.bill-card-table .value-col {
+  width: 10%;
+  padding: 8px 0 !important;
+  font-size: 0.875rem;
+  color: #555;
+}
+
+.bill-card-table .payment-col {
+  width: 25%;
+  padding: 0 12px;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 8px;
+}
+
+/* Payment Input Container */
+.payment-input-container {
+  max-width: 250px;
+}
+
+/* Total Bills Text */
+.total-bill-text {
+  margin-top: 12px;
+  padding: 12px;
+  border-top: 1px solid #dee2e6;
+}
+
+/* Radio Buttons */
+.radio-btns {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: white;
+}
+
+/* Adjusting Buttons */
+.adjusting-btn {
+  display: flex;
+  gap: 5px;
+}
+
+.adjusting-btn .btn-sm {
+  flex: 1;
+  font-weight: bold;
+}
+
+.adjusting-btn .btn-primary {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.adjusting-btn .bg-light {
+  background-color: #f8f9fa;
+}
+
+/* Form Control Error States */
+.form-control.error,
+.form-select.error {
+  border-color: #dc3545;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .form-section,
+  .bills-section {
+    height: auto;
+    overflow-y: visible;
+  }
+
+  .payment-card,
+  .payment-card.compact {
+    max-width: 100%;
+  }
+}

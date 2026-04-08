@@ -1,0 +1,34 @@
+[
+  {
+    "id": 101,
+    "vendorId": "v1",
+    "billNo": "19129",
+    "amount": 45000,
+    "outstanding": 30879,
+    "site": "Cheran Nagar"
+  },
+  {
+    "id": 102,
+    "vendorId": "v1",
+    "billNo": "146",
+    "amount": 1500,
+    "outstanding": 1340,
+    "site": "RE-029"
+  },
+  {
+    "id": 103,
+    "vendorId": "v2",
+    "billNo": "LAB-552",
+    "amount": 10000,
+    "outstanding": 5000,
+    "site": "Main Office"
+  },
+  {
+    "id": 104,
+    "vendorId": "v3",
+    "billNo": "TR-990",
+    "amount": 25000,
+    "outstanding": 25000,
+    "site": "GMR Infra"
+  }
+]
