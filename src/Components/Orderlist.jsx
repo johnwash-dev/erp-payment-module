@@ -4,13 +4,13 @@ import toast, { Toaster } from "react-hot-toast";
 
 function OrderList({ onSave, onClose, selectedPayments }) {
   // 1. Initial Data Setup
-  const [vendors] = useState([
+  const vendors = [
     { name: "VEL HARDWARES", id: "V001" },
     { name: "WOOD COMPANY", id: "V002" },
     { name: "HARSHIT TECH", id: "V003" },
-  ]);
+  ];
 
-  const [allBills] = useState([
+  const allBills = [
     {
       id: "#19129",
       vendor: "VEL HARDWARES",
@@ -71,7 +71,7 @@ function OrderList({ onSave, onClose, selectedPayments }) {
       billAmount: 18000,
       outstanding: 18000,
     },
-  ]);
+  ];
 
  
   const [formData, setFormData] = useState({
